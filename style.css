@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#23253a ;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content:space-around; 
+    background-color:#212434;
+}
+ul{
+    display: flex;
+    margin:10px;
+    list-style: none;
+    color:white;
+}
+a{
+    margin: 10px; 
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: #FE4047;
+}
+.titulo{
+    color: white;
+    font-size:25px ;
+}
+.container{
+    margin:0 auto;
+    padding: 50px;
+}
+p{
+   color: white;
+   font-size: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texto{
+    font-size: 15px;
+    color: #323449;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color:#FF4856;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    border:none;
+}
+button:hover{
+    background-color: #212434;
+}
+h2{
+    color:white;
+    font-size:15px;
+    margin-top: 200px;
+}
+h1{
+    color: #FE4047;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+hr{
+    color:#FE4047;
+    width:75px;
+}
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    gap:100px;
+}
+.card1 {
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px;
+}
+.fa-brands{
+    margin-top:35px;
+    margin-left: 30px;
+    font-size:25px;
+}
+.titulo-card{
+    margin:5px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: justify;  
+}
+.card2{
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px;
+}
+.fa-solid{
+    margin-top:35px;
+    margin-left: 30px;
+    font-size:25px;
+}
+.card3{
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px
+}
+.card4{
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px
+}
+.card5{
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px
+}
+.card6{
+    margin-top: 30px;
+    background-color: #323449;
+    width:220px;
+    height: 200px
+}
+.form{
+    margin-top: 200px;
+}
+input{
+    display:flex;
+    margin:15px;
+    padding: 10px;
+    width: 300px;
+    background-color:#323449;
+    border:none;
+}
+.btn-form{
+    background-color:#FF4856;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-right: 50px;
+    
+}    
+
